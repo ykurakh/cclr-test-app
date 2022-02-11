@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'cclr-test';
+  public src = 'assets/pdfs/pdf-sample.pdf';
+
+  public url = new URL('http://pdfviewer.net/assets/pdfs/GraalVM.pdf');
 }
